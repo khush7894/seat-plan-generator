@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="seating-plan-generator">
+		<class>com.seating.plan.generator.system.entity.Batch</class>
+		<class>com.seating.plan.generator.system.entity.BatchSectionStudent</class>
+		<class>com.seating.plan.generator.system.entity.City</class>
+		<class>com.seating.plan.generator.system.entity.Course</class>
+		<class>com.seating.plan.generator.system.entity.Department</class>
+		<class>com.seating.plan.generator.system.entity.Institute</class>
+		<class>com.seating.plan.generator.system.entity.LkpCourse</class>
+		<class>com.seating.plan.generator.system.entity.LkpDepartment</class>
+		<class>com.seating.plan.generator.system.entity.LkpSection</class>
+		<class>com.seating.plan.generator.system.entity.LkpSemester</class>
+		<class>com.seating.plan.generator.system.entity.Role</class>
+		<class>com.seating.plan.generator.system.entity.Student</class>
+		<class>com.seating.plan.generator.system.entity.User</class>
+		<class>com.seating.plan.generator.system.entity.UserInstitute</class>
+		<class>com.seating.plan.generator.system.entity.Subject</class>
+		<class>com.seating.plan.generator.system.entity.SemExamInfo</class>
+		<class>com.seating.plan.generator.system.entity.SubjectInfo</class>
+		<class>com.seating.plan.generator.system.entity.StudentSubjectInfo</class>
+		<class>com.seating.plan.generator.system.entity.SubjectTimetable</class>
+		<class>com.seating.plan.generator.system.entity.RoomInfo</class>
+	</persistence-unit>
+
+</persistence>
